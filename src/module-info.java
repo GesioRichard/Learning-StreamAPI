@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author gesio
+ *
+ */
+module streamApiPracticing {
+}
