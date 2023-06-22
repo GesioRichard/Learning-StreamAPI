@@ -26,7 +26,7 @@ public class Program1 {
 
 			while (nextLine != null) {
 
-				String[] columns = br.readLine().split(",");
+				String[] columns = nextLine.split(",");
 
 				System.out.println(columns[0] + " - " + columns[1]);
 
@@ -50,14 +50,14 @@ public class Program1 {
 			
 			names.forEach(System.out::println);
 			
+			br.close();
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
+			System.out.println("Error: " + e.getMessage());
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			System.out.println("Error: " + e.getMessage());
 			e.printStackTrace();
 		}
-
 	}
 
 }
