@@ -73,7 +73,8 @@ public class Program2 {
 		} catch ( InputMismatchException e) {
 			System.out.println("Error: Please enter a correct character");
 		}
-
+		
+		sc.close();
 	}
 
 }
